@@ -8,7 +8,6 @@ class Shoe
     @brand = brand
     BRANDS<<brand if BRANDS.uniq?(brand)
   end
-  end
 
   def cobble
     self.condition = "new"
